@@ -1,7 +1,5 @@
-while True
-    try;
-    number = int(input("whats ur number"))
-    except:
-    print("not number")
-    else
-    break
+#tip calculator
+bill=input("money here= ")
+tip_tax=15/100
+result=tip_tax % bill
+print(result)
