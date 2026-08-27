@@ -40,4 +40,4 @@ while True:
         break
     else:
         print("try again")
-print("comleated user name and pasword",name,power+"password:"+password)
+print("comleated user name and pasword",name,power,"password:"+password)
