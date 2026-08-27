@@ -2,6 +2,7 @@
 
 print("username maker")
 name=input("nickname: ")
+#i fouigured out how to work the while true thingy
 while True:
     try:
         favnum1=int(input("number:"))
@@ -18,8 +19,9 @@ while True:
         break
 power=int(favnum1*favnum2)
 print(name,power)
+#idk how to make it 9 and more so its just spesicaly 9
 while True:
-    password=input("9 didget password: ")
+    password=input("exactly 9 didget password: ")
 
     if len(password) !=9:
         print("password to short")
@@ -29,6 +31,7 @@ while True:
     break
 print("please confirm your password and username")
 good_pasword=password
+#i had to serch up how to make this work
 while True:
     user_try=input("check your password:")
 
