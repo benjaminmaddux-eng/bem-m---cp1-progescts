@@ -1,4 +1,4 @@
-#username thingy
+#unit 1 final project
 
 print("username maker")
 name=input("nickname: ")
@@ -40,6 +40,4 @@ while True:
         break
     else:
         print("try again")
-print("comleated user name and pasword")
-print(name,power)
-print(password)
+print("comleated user name and pasword",name,power,password)
