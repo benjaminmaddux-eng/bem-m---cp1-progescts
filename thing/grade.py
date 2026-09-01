@@ -1,4 +1,4 @@
-#benjamin madduxs average grade project
+#benjamin madduxs average grade project peroide1 for ms larose
 while True:
     try: 
         class1=float(input("grade for first period   "))
