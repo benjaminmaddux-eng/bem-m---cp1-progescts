@@ -52,9 +52,5 @@ print(" youre cannonball landed" ,rangefromcannon, "inches from your cannon")
 print("(inches)simplyed verson:  ",symplyrange)
 print("feet away",feetaway)
 print("miles:   ",milesaway)
-while True:
-    try:
-    milesaway > 1.5 or milesaway < 1.6 print("GOOD JOB YOU KILLED THE KING    ▄︻テ══━一💥")
-    else:
-        
+if (milesaway > 1.5 or milesaway < 1.6): print(" doog job you killed the kaing")
 if (milesaway < 1.5 or milesaway > 1.6):print(" HAHAHAHAHA YOU MISSED ")
