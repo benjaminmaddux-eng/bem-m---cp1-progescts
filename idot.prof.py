@@ -3,6 +3,18 @@ firstname=input("put in your fist name")
 while True:
     try:
         phonenum=int(input("phone number:   "))
-        otherphone= phonenum.split(3)
-        otherphone= phonenum.split(6)
+    except:
+        print("not a number")
+    else:
+        break
 
+while True:
+    try:
+        gpa=float(input("grade point average:   "))
+    except:
+        print("not a number")
+    else:
+        break
+phonenum3=phonenum.split(3)
+phonenum6=phonenum3.split(6)
+gparound=round(gpa,2)
