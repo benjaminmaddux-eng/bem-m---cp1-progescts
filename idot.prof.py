@@ -16,8 +16,8 @@ while True:
         print("not a number")
     else:
         break
-phonenum3=phonenum.split(3)
-phonenum6=phonenum3.split(6)
+phonenum3=int(phonenum.split(3))
+phonenum6=int(phonenum3.split(6))
 gparound=round(gpa,2)
 firstcap=firstname.capitalize
 lastcap=lastname.capitalize
