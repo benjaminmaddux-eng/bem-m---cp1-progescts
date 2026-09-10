@@ -3,7 +3,7 @@ firstname=input("put in your fist name:   ")
 lastname=input("put in your last name:   ")
 while True:
     try:
-        phonenum=int(input("phone number:   "))
+        phonenum=str(input("phone number:   "))
     except:
         print("not a number")
     else:
@@ -16,13 +16,14 @@ while True:
         print("not a number")
     else:
         break
-phonenum3=int(phonenum.split(3))
-phonenum6=int(phonenum3.split(6))
+phone1=str(phonenum[0:3])
+phone2=str(phone1[3:6])
+phone3=str(phone2[6:10])
 gparound=round(gpa,2)
 firstcap=firstname.capitalize
 lastcap=lastname.capitalize
-print("".join([firstcap,lastcap]))
-print(phonenum6)
+print(firstcap,lastcap)
+print(phone3)
 print(gparound)
 
 
