@@ -1,14 +1,7 @@
 #benjamin maddux ms larsoe 
 firstname=input("put in your fist name:   ")
 lastname=input("put in your last name:   ")
-while True:
-    try:
-        phonenum=str(input("phone number:   "))
-    except:
-        print("not a number")
-    else:
-        break
-
+phonenum=str(input("phone number:   "))
 while True:
     try:
         gpa=float(input("grade point average:   "))
@@ -20,9 +13,9 @@ phone1=str(phonenum[0:3])
 phone2=str(phone1[3:6])
 phone3=str(phone2[6:10])
 gparound=round(gpa,2)
-firstcap=firstname.capitalize
-lastcap=lastname.capitalize
-print(firstcap,lastcap)
+firstcap=firstname
+lastcap=lastname
+print(firstcap.capitalize,lastcap.capitalize)
 print(phone3)
 print(gparound)
 
