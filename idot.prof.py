@@ -15,12 +15,14 @@ while True:
         print("not a number")
     else:
         break
-phone2=str(phonenum[0:3][3:6][6:10])
+phone1=str(phonenum[0:3])
+phone2=str(phonenum[3:6])
+phone3=str(phonenum[6:10])
 gparound=round(gpa,2)
 firstcap=firstname
 lastcap=lastname
-print(f"name: {firstcap.capitalize()}{lastcap.capitalize()}")
-print(f"phonenumber: {phone2}")
+print(f"name: {firstcap.capitalize()} {lastcap.capitalize()}")
+print(f"phonenumber: {phone1} {phone2} {phone3}")
 print(f"gpa: {gparound}")
 
 
