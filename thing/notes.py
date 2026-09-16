@@ -22,7 +22,7 @@ print("oh sorry i missed your birthday what age are you now?")
 age +=1
 print("ohh so your" ,age)'''
 
-#benjamin maddux ms larsoe 
+'''#benjamin maddux ms larsoe 
 firstname=input("put in your fist name:   ")
 lastname=input("put in your last name:   ")
 while True:
@@ -31,6 +31,7 @@ while True:
     except:
         print("not a number")
     else:
+    
         break
 
 while True:
@@ -46,4 +47,17 @@ firstcap=firstname.capitalize
 lastcap=lastname.capitalize
 print("".join([firstcap,lastcap]))
 print(phonenum3)
-print(gparound)
+print(gparound)'''
+
+grandes=[85,90,78,92,88]
+
+totoal=0
+count=4
+
+for grade in grandes:
+    totoal=totoal + grade
+
+average= totoal/count
+
+print(f"the average grade is {average}")
+
