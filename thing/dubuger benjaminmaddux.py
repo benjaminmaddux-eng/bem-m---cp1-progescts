@@ -13,7 +13,7 @@ total = price * quantity
 discounted_total = total- (total * 0.10)#you jsut need to substract the total by 10%
 
 tax_rate = 0.08
-total_with_tax = discounted_total + (discounted_total * tax_rate)# the substract was wrong
+total_with_tax = discounted_total + (discounted_total * tax_rate)# the subtraction was wrong
 
 print("Hello, " + pirate_name + "! Here's your order summary:")
 print("Snack: " + snack_name)#the variable was spelled wrong
