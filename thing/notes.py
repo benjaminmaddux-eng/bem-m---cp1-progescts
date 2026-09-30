@@ -22,7 +22,7 @@ print("oh sorry i missed your birthday what age are you now?")
 age +=1
 print("ohh so your" ,age)'''
 
-#benjamin maddux ms larsoe 
+'''#benjamin maddux ms larsoe 
 firstname=input("put in your fist name:   ")
 lastname=input("put in your last name:   ")
 while True:
@@ -59,5 +59,5 @@ for grade in grandes:
 
 average= totoal/count
 
-print(f"the average grade is {average}")
-
+print(f"the average grade is {average}")'''
+things = ["bean", "another person", "people"]
