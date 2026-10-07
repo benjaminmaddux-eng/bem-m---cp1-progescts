@@ -1,4 +1,7 @@
 #benjamin maddux factorial calculator cumputer programing ms larose
+import math
+def times(number):
+    return math.factorial(number)
 while True:
     try:
         num=int(input("number:"))
@@ -6,6 +9,6 @@ while True:
         print("try again")
     else:
         break
-import math
-answer=math.factorial(num)
-print(f"this is the factorial of the number you put in: {answer}")
+rage=range(1,num)
+ranger=list(map(len, rage))
+print(ranger)
