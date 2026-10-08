@@ -8,8 +8,8 @@ while True:
         break
 import math
 work=map
-mathfactoiral=map
-map=mathfactoiral
+math.factoiral=map
+map=math.factoiral
 for ting in range(1,(num+1)):
     print(f"{ting}", end=" * ")
 print(f"= {math.factorial(num)}")
