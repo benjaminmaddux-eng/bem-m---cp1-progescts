@@ -60,4 +60,14 @@ for grade in grandes:
 average= totoal/count
 
 print(f"the average grade is {average}")'''
-things = ["bean", "another person", "people"]
+'''things = ["bean", "another person", "people"]'''
+sum = 0
+i = 0
+while i<10:
+    sum=sum + i
+    print(sum)
+    i= i + 1
+
+for i in range(10):
+    sum=sum + 1
+    print(sum)
