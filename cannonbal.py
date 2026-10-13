@@ -3,33 +3,33 @@ print("KILL THE KING he is about 1.5 miles away and you need to hit him you make
 print("the hevyer your cannonball is the shoter it will go an average cannon ball is around 40 punds")
 while True:
     try:
-        ballsize=int(input("(pounds)wheight of cannonball:   "))
+        ballsize=int(input(" (pounds) wheight of cannonball:   "))
     except:
         print("not a number")
     else:
         break
-print("if you have your angle above 180 it will go backwords(i think)")
+print("if you have your angle above 180 it will go backwords (i think) ")
 while True:
     try:
         angle=int(input("angle of cannon:   "))
     except:
-        print("not a number")
+        print(" not a number ")
     else:
         break
-print("the longer your barrel the more presure will be made increaseing how far your cannonball gose averge is aound 75 inch")
+print(" the longer your barrel the more presure will be made increaseing how far your cannonball gose averge is aound 75 inch ")
 while True:
     try:
-        barrelength=int(input("(inches)lenth of cannon barrel:   "))
+        barrelength=int(input(" (inches)lenth of cannon barrel:   "))
     except:
-        print("not a number")
+        print(" not a number ")
     else:
         break
-print("gunpowder makes your cannon ball go farther average amount of oz is around 30 g")
+print(" gunpowder makes your cannon ball go farther average amount of oz is around 30 g ")
 while True:
     try:
-        gunpow=int(input("(ounces) gunpowder:   "))
+        gunpow=int(input(" (ounces) gunpowder:   "))
     except:
-        print("not a number")
+        print(" not a number ")
     else:
         break
 gunpow*0.3
