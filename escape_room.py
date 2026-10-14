@@ -1,3 +1,4 @@
+# benjamin maddux computer programing ms larose
 code="6867"
 while True:
     clue1=input("what didgit would you like to get a clue about[1,2,4] or you can try to code[try]: ")
