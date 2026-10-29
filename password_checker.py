@@ -1,29 +1,30 @@
 #benjamin maddux computer programing ms larose
-sepd=["!","@","#","%","^","*"]
-safty_rating=0
-thing=list(input("password:"))
-uper = False
-slower = False
-if 8<=len(thing):
-    safty_rating += 1
-for n in thing:
-    if str.isupper(n):
-        uper = True
-if uper == True:
-    safty_rating += 1
-for n in thing:
-    if str.islower:
-        slower=True
-if slower == True:
-    safty_rating += 1
-for n in thing:
-    if str.isdigit:
-        safty_rating +=1
-for n in thing:
-    if n == sepd:
-        safty_rating += 1
-print("your safty rating: ",safty_rating)
-if safty_rating <= 3:
-    print("bad password")
-if safty_rating > 4:
-    print("good password")
+lon=False
+uper=False
+low=False
+
+pas=input("password: ")
+if len(pas) >= 8:
+    lon=True
+    print("long enough")
+else:
+    lon = False
+    print("not long enough")
+if pas.islower:
+    low=True
+    print("it has lowercase")
+else:
+    low=False
+    print("this dose not have lowercase")
+if pas.isupper:
+    uper=True
+    print("this password has uppercase")
+else:
+    uper=False
+    print("this password doesnt have uppercase")
+if pas.isdigit:
+    dig=True
+    print("this password has numbers")
+else:
+    uper=False
+    print("")
