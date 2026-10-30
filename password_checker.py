@@ -2,10 +2,13 @@
 lon=False
 uper=False
 low=False
-
+speed=False
+dig=False
+strength=0
+sped=["!","@","#","$","%","^","&","*"]
 pas=input("password: ")
 if len(pas) >= 8:
-    lon=True
+    lon = True
     print("long enough")
 else:
     lon = False
@@ -26,5 +29,22 @@ if pas.isdigit:
     dig=True
     print("this password has numbers")
 else:
-    uper=False
-    print("")
+    dig=False
+    print("this password dosnt have numbers")
+if any(char.isupper() for char in pas):
+    speed=True
+    print("this password has special characetrs")
+else:
+    speed=False
+    print("this password dosnt have special characters")
+if lon == True:
+    strength += 1
+if low == True:
+    strength += 1
+if uper == True:
+    strength += 1
+if dig == True:
+    strength += 1
+if speed == True:
+    strength += 1
+print(f"your password strenght: {strength}")
