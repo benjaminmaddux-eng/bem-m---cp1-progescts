@@ -1,25 +1,26 @@
 #benjamin maddux computer programing ms larose
+import string
 lon=False
 uper=False
 low=False
 speed=False
 dig=False
 strength=0
-sped=["!","@","#","$","%","^","&","*"]
-pas=input("password: ")
+spead=["!","@","#","$","%","^","&","*"]
+pas=str(input("password: "))
 if len(pas) >= 8:
     lon = True
     print("long enough")
 else:
     lon = False
     print("not long enough")
-if pas.islower:
+if any(char.islower() for char in pas):
     low=True
     print("it has lowercase")
 else:
     low=False
     print("this dose not have lowercase")
-if pas.isupper:
+if any(char.isupper() for char in pas):
     uper=True
     print("this password has uppercase")
 else:
@@ -31,7 +32,7 @@ if pas.isdigit:
 else:
     dig=False
     print("this password dosnt have numbers")
-if any(char.isupper() for char in pas):
+if any(char in string.punctuation for char in pas):
     speed=True
     print("this password has special characetrs")
 else:
@@ -48,3 +49,9 @@ if dig == True:
 if speed == True:
     strength += 1
 print(f"your password strenght: {strength}")
+if strength == 0:
+    print("not a good password")
+if strength >= 1 and strength <= 3:
+    print("this is a ok password")
+if strength >= 4:
+    print("realy good pasword")
