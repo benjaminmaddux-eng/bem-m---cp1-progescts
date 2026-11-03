@@ -26,13 +26,13 @@ if any(char.isupper() for char in pas):
 else:
     uper=False
     print("this password doesnt have uppercase")
-if pas.isdigit:
+if any(char.isdigit() for char in pas):
     dig=True
     print("this password has numbers")
 else:
     dig=False
     print("this password dosnt have numbers")
-if any(char.isdigit() for char in pas):
+if any(char in string.punctuation for char in pas):
     speed=True
     print("this password has special characetrs")
 else:
