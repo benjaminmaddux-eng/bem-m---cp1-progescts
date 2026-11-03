@@ -32,7 +32,7 @@ if pas.isdigit:
 else:
     dig=False
     print("this password dosnt have numbers")
-if any(char in string.punctuation for char in pas):
+if any(char.isdigit() for char in pas):
     speed=True
     print("this password has special characetrs")
 else:
