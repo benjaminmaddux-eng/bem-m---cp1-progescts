@@ -55,3 +55,4 @@ if strength >= 1 and strength <= 3:
     print("this is a ok password")
 if strength >= 4:
     print("realy good pasword")
+#waht
